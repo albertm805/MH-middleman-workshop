@@ -1,5 +1,6 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
+Haml::TempleEngine.disable_option_validator!
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
