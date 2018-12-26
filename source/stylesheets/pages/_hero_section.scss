@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo');
+
+body {
+  background-image: url("https://retrovisor.herokuapp.com/images/hero/bkg-3a6c09ad.png");
+  font-family: Chivo, 'san-serif';
+  font-size: 1rem;
+}
+
+.hero-section-container {
+
+  .hero-title {
+    font-size: 2.4rem;
+    width: 16.5rem;
+  }
+
+  .hero-text {
+    font-size: 1rem;
+    font-weight: 100;
+  }
+
+  .hero-know-more {
+    background-color: $red;
+    border-radius: 1.2rem;
+    border-color: $red;
+    font-size: 1.1rem;
+    height: 3.1rem;
+    margin-top: 5.7rem;
+    width: 100%;
+  }
+
+  .hero-title, .hero-text, .hero-know-more {
+    color: $white;
+  }
+
+  @media only screen and (min-width: $medium) {
+    text-align: center;
+    width: 100%;
+    
+    img {
+      margin: 6rem auto 3.8rem;
+      width: 18rem;
+    }
+
+    .hero-title {
+      font-size: 3.3rem;
+      font-weight: 900;
+      margin: 0 auto 2.5rem;
+      width: 45.5rem;
+    }
+
+    .hero-text {
+      font-size: 1.4rem;
+      font-weight: 100;
+    }
+
+    .hero-know-more {
+      border-color: $red;
+      border-radius: 1rem;
+      font-size: 1.5rem;
+      font-weight: 900;
+      height: 3rem;
+      margin-top: 2rem;
+      width: 18rem;
+    }
+  }
+}
